@@ -4,7 +4,8 @@
 
 (define collection "benchmark-ips")
 
-(define deps '("base"
+(define deps '("math-lib"
+               "base"
                "rackunit-lib"))
 
 (define build-deps '("racket-doc" "scribble-lib" "racket-doc"))
